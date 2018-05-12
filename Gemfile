@@ -15,6 +15,7 @@ gem 'bootstrap', '~> 4.1.0'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'jquery-rails'
 gem "slim-rails"
+gem 'devise'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
